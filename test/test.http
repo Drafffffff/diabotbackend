@@ -1,0 +1,18 @@
+GET http://localhost:3000/search/aaa
+
+Content-Type:application/json
+
+{
+  "name": "John Doe",
+  "email": "
+}
+
+
+###
+
+POST http://localhost:3000/search
+Content-Type:application/json
+
+{
+  "key": "海报 环保"
+}
