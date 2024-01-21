@@ -14,5 +14,17 @@ POST http://localhost:3000/search
 Content-Type:application/json
 
 {
-  "key": "海报 环保"
+  "key": "土味"
+}
+
+###
+
+GET http://localhost:8787
+
+###
+POST https://diabackend.drafff.workers.dev/search
+Content-Type:application/json
+
+{
+  "key": "美丽"
 }
